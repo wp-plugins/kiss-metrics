@@ -5,7 +5,7 @@ Requires at least: 2.7
 Author URI: http://www.stinkyinkshop.co.uk/themes/
 Plugin URI: http://www.stinkyinkshop.co.uk/themes/plugins/kiss-metrics/
 Tested up to: 3.2
-Stable tag: 1.0
+Stable tag: 1.1
 
 Enables Kiss Metrics on all pages.
 
