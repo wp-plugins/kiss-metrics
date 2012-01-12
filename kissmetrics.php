@@ -3,7 +3,7 @@
 Plugin Name: Kiss Metrics
 Plugin URI: http://www.stinkyinkshop.co.uk/themes/plugins/kiss-metrics/
 Description: Enables <a href="http://www.kissmetrics.com/">Kiss Metrics</a> on all pages.
-Version: 1.1
+Version: 1.2
 Author: Stinkyink
 Author URI: http://www.stinkyinkshop.co.uk/themes/
 */
@@ -38,6 +38,7 @@ function options_page_kissmetrics() {
 }
 
 function render_kissmetrics($kissmetrics_api_key) {
+  if($kissmetrics_api_key) {
 ?>
 
 <script type="text/javascript">
@@ -52,6 +53,7 @@ function render_kissmetrics($kissmetrics_api_key) {
 </script>
 
 <?php
+  }
 }
 
 
